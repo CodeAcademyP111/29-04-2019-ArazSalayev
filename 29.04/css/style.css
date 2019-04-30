@@ -1,0 +1,120 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    line-height: 60px;
+}
+#header li{
+    display:inline-block;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+       
+    
+    
+}
+#header li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color:green;
+}
+
+#header li::after{
+    content:'';
+    display: block;      
+    height: 5px;
+    width: 15%;
+    background-color: green;
+}
+#header li:hover::after{
+    content: '';
+    display: block;
+    height: 5px;
+    width:100%;
+    background-color: green;
+    transition: 1s;
+    
+    
+}
+
+#header i{
+    font-size: 50px;
+    
+}
+.btn2{
+    background-color: rgb(202, 253, 124);
+}
+.btn1{
+    background: none;
+    border: none;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.btn1:hover , .btn2:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
